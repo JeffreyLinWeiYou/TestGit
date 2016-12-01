@@ -1,0 +1,7 @@
+ERROR:root:message
+Traceback (most recent call last):
+  File "G:\python\oraclet\test\src\test.py", line 63, in main
+    test.decode('utf-8')
+  File "C:\Python27\lib\encodings\utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-1: ordinal not in range(128)
